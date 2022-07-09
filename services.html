@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Fitness Gym</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+      integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="/" class="navbar__logo">FLEX</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="navbar__menu">
+        <a href="/" class="navbar__link">Home</a>
+        <a href="/services.html" class="navbar__link">Services</a>
+        <a href="/plans.html" class="navbar__link">Plans</a>
+        <a href="/trainers.html" class="navbar__link">Trainers</a>
+      </div>
+    </nav>
+
+    <div class="services">
+      <div class="services__container">
+        <div>
+          <p class="topline animate-services">Features</p>
+          <h1 class="services__heading animate-services">What We Offer</h1>
+          <div class="services__features">
+            <p class="services__feature animate-services">
+              <i class="fas fa-check-circle"></i> Group Fitness Classes
+            </p>
+            <p class="services__feature animate-services">
+              <i class="fas fa-check-circle"></i> Personal Trainer Sessions
+            </p>
+            <p class="services__feature animate-services">
+              <i class="fas fa-check-circle"></i> Basketball Court
+            </p>
+            <p class="services__feature animate-services">
+              <i class="fas fa-check-circle"></i> Indoor Pool
+            </p>
+            <p class="services__feature animate-services">
+              <i class="fas fa-check-circle"></i> Steam Rooms and Saunas
+            </p>
+            <p class="services__feature animate-services">
+              <i class="fas fa-check-circle"></i> Open 24/7 Daily
+            </p>
+          </div>
+        </div>
+        <div>
+          <img
+            src="./images/gym-2.jpg"
+            alt=""
+            class="services__img animate-img"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__desc">
+          <h1>FLEX Fitness</h1>
+          <p>Luxury fitness gym located in North Hollywood.</p>
+          <p id="phone">(323) 310-8180</p>
+        </div>
+        <div class="footer__links">
+          <h2 class="footer__title">Contact Us</h2>
+          <a href="/services.html" class="footer__link">Contact</a>
+          <a href="/services.html" class="footer__link">Support</a>
+          <a href="/services.html" class="footer__link">Sponsors</a>
+        </div>
+      </div>
+      <div class="footer__wrapper">
+        <div class="footer__links">
+          <h2 class="footer__title">Memberships</h2>
+          <a href="/" class="footer__link">Plans</a>
+          <a href="/" class="footer__link">Pricing</a>
+          <a href="/" class="footer__link">FAQs</a>
+        </div>
+        <div class="footer__links">
+          <h2 class="footer__title">Social Media</h2>
+          <a href="/" class="footer__link">Facebook</a>
+          <a href="/" class="footer__link">Instagram</a>
+          <a href="/" class="footer__link">YouTube</a>
+          <a href="/" class="footer__link">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
